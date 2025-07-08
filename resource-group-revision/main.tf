@@ -30,3 +30,27 @@ resource "azurerm_storage_account" "sureshstb" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
 }
+
+resource "azurerm_storage_account" "sureshstb" {
+  name                     = "acstorage123"
+  resource_group_name      = "suresh-rg"
+  location                 = "West Europe"
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+}
+
+resource "azurerm_storage_account" "sureshstb2" {
+  name                     = "acstorage1235"
+  resource_group_name      = "suresh-rg"
+  location                 = "West Europe"
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+}
+
+resource "azurerm_storage_account" "sureshstg" {
+  name                     = "acstorage123567888"
+  resource_group_name      = "suresh-rg"
+  location                 = "West Europe"
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+}
