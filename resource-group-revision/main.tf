@@ -17,12 +17,6 @@ resource "azurerm_resource_group" "demo-rg" {
   location = "West Europe"
 }
 
-resource "azurerm_resource_group" "demo1-rg" {
-  name     = "suresh-rg"
-  location = "West Europe"
-}
-
-
 resource "azurerm_storage_account" "sureshstb" {
   name                     = "acstorage123"
   resource_group_name      = "suresh-rg"
