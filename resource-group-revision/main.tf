@@ -12,10 +12,7 @@ provider "azurerm" {
   subscription_id = "9411e33c-c9ad-489f-961e-fcafe36b53f6"
 }
 
-resource "azurerm_resource_group" "demo-rg" {
-  name     = "suresh-rg"
-  location = "West Europe"
-}
+
 
 resource "azurerm_resource_group" "demo2-rg" {
   name     = "suresh-rg"
